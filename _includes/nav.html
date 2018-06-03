@@ -1,0 +1,6 @@
+<ul class="links">
+  <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
+  <li class="{% if page.url contains '/game-settings/' %} active {% endif %}"><a href="{{ "/game-settings/" | absolute_url }}">Game Settings</a></li>
+  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/setup-guide/" | absolute_url }}">Setup Guide</a></li>
+  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">About</a></li>
+</ul>
