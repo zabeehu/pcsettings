@@ -9,6 +9,8 @@ GEM
     addressable (2.4.0)
     colorator (1.1.0)
     concurrent-ruby (1.0.5)
+    cssminify2 (2.0.1)
+    execjs (2.7.0)
     faraday (0.15.2)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.23)
@@ -16,6 +18,7 @@ GEM
     html-pipeline (2.8.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    htmlcompressor (0.4.0)
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jekyll (3.2.1)
@@ -34,16 +37,21 @@ GEM
     jekyll-mentions (1.4.0)
       html-pipeline (~> 2.3)
       jekyll (~> 3.0)
+    jekyll-minifier (0.1.2)
+      cssminify2 (~> 2.0)
+      htmlcompressor (~> 0.3)
+      jekyll (~> 3.0)
+      uglifier (~> 2.7)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo (0.0.2)
     jekyll-seo-tag (2.0.0)
       jekyll (~> 3.1)
     jekyll-sitemap (0.11.0)
       addressable (~> 2.4.0)
     jekyll-watch (1.5.1)
       listen (~> 3.0)
+    json (2.1.0)
     kramdown (1.16.2)
     liquid (3.0.6)
     listen (3.1.5)
@@ -77,6 +85,9 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
 
 PLATFORMS
   ruby
@@ -86,8 +97,8 @@ DEPENDENCIES
   jekyll-feed
   jekyll-gist
   jekyll-mentions
+  jekyll-minifier
   jekyll-paginate
-  jekyll-seo
   jekyll-seo-tag
   jekyll-sitemap
 

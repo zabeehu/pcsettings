@@ -53,6 +53,7 @@ gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-minifier
 
 paginate: 6
 paginate_path: "/page:num/"
