@@ -3431,7 +3431,7 @@
 		@media screen and (max-width: 980px) {
 
 			#header {
-				height: 14rem;
+				height: 7rem;
 				padding-bottom: 4rem;
 			}
 
@@ -3440,7 +3440,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding-bottom: 3rem;
+				padding-bottom: 1rem;
 			}
 
 				#header .logo {
